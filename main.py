@@ -1,8 +1,11 @@
-import os 
+import os
+import sys
 
- path = "C:\Users\sanja\Downloads"
+sys.stdout.reconfigure(encoding='utf-8')
 
- files = os.listdir(path)
+path = r"C:\Users\sanja\Downloads"
 
- for file in files:
+files = os.listdir(path)
+
+for file in files:
     print(file)
